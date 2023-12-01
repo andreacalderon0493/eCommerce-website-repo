@@ -9,6 +9,7 @@
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    background-color: #707070;
 }
 
 body {
@@ -16,6 +17,7 @@ body {
     background-color: white;
     color: black;
     margin: 0;
+    min-height: 100vh;
 }
 
 header {
@@ -74,14 +76,77 @@ li a:hover {
     font-size: medium;
 
 }
-
-
-.aboutus img {
-    float: left;
-    margin-right: 3rem;
-    width: 55px;
+.aboutUsimg1{
+    grid-area: i1;
+    height:250px;
+    padding: 1;
+    
+} 
+.aboutUsimg2{
+    grid-area: i2;
+    height: 350px;
+    padding: 1;
 }
 
-.HOME {
-    background-color: black;
+.aboutUs-container{
+    display: grid;
+    grid-template-areas: "t1 t1 i2" "i1 t2 i2" "i1 t2 i2";
+    margin: 1rem;
+    
+}
+
+.aboutUs-1{
+    grid-area: t1;
+    margin: 1rem;
+    padding: 2;
+
+}
+.aboutUs-2{
+    grid-area: t2;
+    margin: 1rem;
+    padding: 3;
+    /* max-width: 25rem; */
+}
+
+.p {
+    border-bottom: 4px solid black;
+    width: 20;
+  }
+  
+  .productsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 2rem;
+    padding: 1rem;
+    gap: 2;
+
+    /* grid-template-areas: "ltop mtop rtop" "lmid mmid rmid" "lbot mbot rbot";
+    height: 25px; */
+  }
+  .productImage{
+    height:200px;
+    padding: 1;
+    
+} 
+.product{
+    display: flex;
+    flex-direction: column;
+    max-width: 30rem;
+    align-items: center;
+}
+.button{
+    background-color: #BF7631;
+    color: white;
+    
+}
+footer{
+text-align: center;
+border-image: round;
+background-color: #BF7631;
+display: flex;
+justify-content: center;
+align-items: baseline;
+position: relative;
 }
