@@ -16,7 +16,8 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
     color: black;
-    margin: 0;
+    margin: 2;
+    padding: 2rem;
     min-height: 100vh;
 }
 
@@ -24,16 +25,21 @@ header {
     background-color: white;
     position: relative;
     padding: 1rem;
+
 }
 
-nav a {
+nav {
+    
     color: black;
     font-size: 16;
     text-decoration: none;
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 1rem;
 
 }
 
-ul {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -54,12 +60,14 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    
 }
 
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #ba7171;
+    background-color: #707070;
+    
 
 }
 
@@ -76,6 +84,11 @@ li a:hover {
     font-size: medium;
 
 }
+.heroText{
+    color: white;
+    font-size: medium; 
+}
+
 .aboutUsimg1{
     grid-area: i1;
     height:250px;
@@ -109,8 +122,11 @@ li a:hover {
 }
 
 .p {
-    border-bottom: 4px solid black;
-    width: 20;
+    border-bottom: 3px solid black;
+    width: 50%;
+  }
+  .border{
+    border-bottom: 2px black;
   }
   
   .productsContainer{
