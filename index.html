@@ -11,22 +11,33 @@
 <body>
     <header>
         <nav>
-            <a href="">CARA <img src="./images/icons8-pottery-96.png" alt="orange pottery vase">CARA</a>
-
             <ul>
                 <li> <a href="#home">HOME</a> </li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#products">PRODUCTS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#cart">CART</a></li>
+                <li style ="float:right"><a class="active" href="#cart">CART</a></li>
+                <a href=""> <strong>CARA <img src="./images/icons8-pottery-96.png" alt="orange pottery vase" width="30" height="30">CARA</strong></a>
+                <li><form action="/action_page.php">
+                    <label for="search">Search</label>
+                    <input type="text" id="search" name="Search"><br><br>
+                    <img src="./images/1200px-Google_Magnifying_Glass.svg.png" alt="magnifying glass" width="25" height="25">
+                  </form></li>
             </ul>
         </nav>
     </header>
     <main>
         <section id="home" class="HOME">
-            <img src="./images/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg" alt="hands building ceramics bowl">
-            <h1>Welcome to CARA CARA!!</h1>
+            <div class="hero">
+            <p class="heroText leftText" >CERAMICS CRAFTED BY HAND...</p>
+            <p class="heroText rightText">...FROM THE GROUND UP</p>
+        </div>
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <section id="about" class="ABOUT US">
             <h2>ABOUT US</h2>
             <img src="./images/Vase_Dame_2048x2048.jpg" alt="white flowers in vase">
@@ -59,13 +70,17 @@
             </p>
             <img src="./images/Cylinder_unglazed3_2048x2048.jpg" alt="flowers in vase">
 
-
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
         </section>
         <section id="products" class="PRODUCTS">
             <h2> OUR PRODUCTS</h2>
             <div>
                 <a href="default.asp"><img src="./images/tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="white and grey ceramic bowls"></a>
-                <h3>Mundo Bowls</h3>
+                <h3 class ="text"> Mundo Bowls <span class="price">$48.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -77,7 +92,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/oriento-maVIpNNtmlQ-unsplash.jpg" alt="red ceramic vase"></a>
-                <h3>Natureza Vase</h3>
+                <h3 class ="text"> Natureza Vase <span class="price">$37.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -89,7 +104,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/tom-crew-bgIO-u4GEfI-unsplash.jpg" alt="white ceramic bowls"></a>
-                <h3>Fiera Bowls</h3>
+                <h3 class ="text"> Feira Bowls <span class="price">$29.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -101,7 +116,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/tom-crew-3uwu5K0RtaE-unsplash.jpg" alt="grey ceramic pots"></a>
-                <h3>Natureza Pots</h3>
+                <h3 class ="text"> Natureza Pots <span class="price">$59.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -113,7 +128,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/linh-le-a0rE64YJDA4-unsplash.jpg" alt="white round ceramic vase"></a>
-                <h3>Pedra Vase</h3>
+                <h3 class ="text"> Pedra Vase<span class="price">$31.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -125,7 +140,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/oriento-maVIpNNtmlQ-unsplash.jpg" alt="grey pots"></a>
-                <h3>Viaja Pots</h3>
+                <h3 class ="text"> Viaja Pots <span class="price">$57.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -137,7 +152,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/tom-crew-YA2E3d7a9Wo-unsplash.jpg" alt="ceramic plates"></a>
-                <h3>Servico Plates</h3>
+                <h3 class ="text"> Serviço plates <span class="price">$35.00</span></h3>>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -149,7 +164,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/oriento-l0ah3UBLppo-unsplash.jpg" alt="blue ceramic vase"></a>
-                <h3>Campeão Vase</h3>
+                <h3 class ="text"> Campeão Vase <span class="price">$37.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -161,7 +176,7 @@
             </div>
             <div>
                 <a href="default.asp"><img src="./images/tom-crew-SITGdvztUdg-unsplash.jpg" alt="white ceramic bowls"></a>
-                <h3>Troca Bowls</h3>
+                <h3 class ="text"> Troca Bowls <span class="price">$25.00</span></h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tortor lorem, tristique sit amet
                     iaculis non, varius eu leo. Fusce volutpat vitae erat sit amet auctor. Nulla faucibus consequat
@@ -172,8 +187,20 @@
                 <a href="https://www.w3schools.com/html/" title="Go to W3Schools HTML section">Learn More</a>
             </div>
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <section id="contact" class="CONTACT">
             <h2>CONTACT US</h2>
+            <form action="/action_page.php">
+                <label for="Email">Email</label>
+                <input type="text" id="email" name="Email"><br><br>
+                <label for="message">Message</label>
+                <input type="text" id="message" name="Message"><br><br>
+                <button type="send">Send</button> 
+              </form>
 
         </section>
     </main>
@@ -186,6 +213,7 @@
         <a href="">CARA <img src="./images/icons8-pottery-96 (1).png" alt="white pottery vase">CARA</a>
         <img src="./images/icons8-twitter-96.png" alt="twitter icon">
         <img src="./images/icons8-instagram-96.png" alt="instagram icon">
+        Amet tellus cras adipiscing enim eu turpis.
         ©Copyright 2015 - 2020
     </footer>
 </body>
